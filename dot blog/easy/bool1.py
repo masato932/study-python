@@ -9,3 +9,4 @@ a = 'ADDZ'
 b = 'BCZZ'
 x = a < b
 print(x)
+# print(x)
