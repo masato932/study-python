@@ -14,21 +14,34 @@
     
 # test(30, 40, 5, 10, 15)
 
-def test(a, b, c, d=20, e=25):
-    set_list = [a, b+c, d]
-    return set_list
+# def test(a, b, c, d=20, e=25):
+#     set_list = [a, b+c, d]
+#     return set_list
     
-y = test(5, 10, 15, d=30, e=40)
-print(y)
+# y = test(5, 10, 15, d=30, e=40)
+# print(y)
 
 set_sum = 256
 
-def test(a, b, c, d, e=25):
+def test(a=1, b=2, c=3, d=4, e=25):
     global set_sum
-    print(set_sum)
+    # print(set_sum)
     set_sum = a+b+c+d
+    # print(set_sum)
     return set_sum
-    
-y = test(1, 10, 15, d=70, e=40)
+
+# test()
+# print(set_sum)
+# test(2,3,4,5,6)
+# print(set_sum)
+x = test(3,4,5,6,7)
+# print(x)
+# print(set_sum)
+y = test()
+# print(set_sum)
+# test(4,5,6,7,8)
+# print(set_sum)
+z = x + y
+print(z)
+y = y + 1
 print(y)
-print(set_sum)
